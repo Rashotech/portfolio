@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Baloo Tamma 2', cursive;;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav bar */
+header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+}
+.logo {
+    float: left;
+}
+#navbar img {
+        max-width:100%; 
+        height:auto; 
+}
+#navbar {
+    background: #251f44;
+    overflow: auto;
+    color: #df5e88;
+}
+#navbar a {
+    color: #df5e88;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    position: sticky;
+    top: 0;
+}
+
+#navbar li{
+    float: left;
+    padding: 20px 10px;
+}
+#navbar li a {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+#about {
+    width: 100%;
+    height: 400px;
+    background: #f6ab6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+.about-me,
+.pic {
+    width: 50%;
+    padding: 20px 10px;
+    color: whitesmoke;
+}
+
+.pic img {
+    border-radius: 50%;
+}
+#introduction {
+    width: 100%;
+    height: 600px;
+    background: url(./image/code.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+.line {
+    height: 2px;
+    background: #df5e88;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-me h2 {
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-weight: 600;
+    color: #111111;
+    text-align: center;
+}
+
+.about-me a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: #df5e88;
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* Skiils */
+
+#skills {
+    width: 100%;
+    height: 300px;
+    background: #8fcfd1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skill-list {
+    width: 33.33%;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+
+/* Portfolio CSS */
+#portfolio {
+    width: 100%;
+    height: 1000px;
+    background: #f6ab6c;
+}
+.portfolio-image,
+.portfolio-details{
+    width: 50%;
+    padding: 10px 100px;
+}
+.portfolio-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+#portfolio img {
+    width: 75%;
+}
+.port {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    font-size: 4em;
+}
+#portfolio a {
+    background-color: #df5e88;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    width: 70px;
+}
+hr { 
+    display: block; 
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em; 
+    margin-right: auto; 
+    margin-left: auto; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+    color:white;
+}
+/* Contact Form CSS*/
+#contact {
+    width: 100%;
+    background: #8fcfd1;
+    font-size: 20px;
+    text-align: center;
+}
+.ccontainer {
+    border-radius: 5px;
+    background-color:inherit;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+input[type=submit] {
+    background-color: rgb(129, 151, 130);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+
+input[type=submit]:hover {
+    background-color: #df5e88;
+}
+  
+#contact h1 {
+    text-align: center;
+    display: block;
+    padding: 10px 5px;
+    font-size: 2em;
+}
+#contact .fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+  }
+  
+  #contact .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #df5e88;
+    color: white;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+

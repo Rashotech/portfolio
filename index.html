@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img class="logo" src="./image/logo.png" alt="Logo" width="100" height="80">
+            <ul>
+                <li><a href="#introduction">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction section -->
+    <section id="introduction">
+        <div class="container">
+            <h3>Hello, My name is AYOADE RASHEED ADEDAMOLA</h3>
+            <h4>Backend Developer</h4>
+            <h5>TIIDELAB Fellow</h5>
+        </div>
+    </section>
+    <!-- About me -->
+    <section id="about">
+        <div class="about-me">
+            <h2 >Little About Me</h2>
+            <div class="line"></div>
+            <h4>I am a passionate Backend Developer who love to build web apps that can solve societal and environmental issues.
+                I am currently a 400 level Undergraduate student of Lagos State University studying Chemical & Polymer Engineering.</h4>
+            <a href="/cv.pdf" download>Download CV&nbsp;<i class="fa fa-download"></i></a>
+        </div>
+        <div class="pic">
+            <img src="./image/Rao.jpg" alt="MY self">
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+        <div class="skill-list">
+            <i class="fa fa-wordpress" aria-hidden="true"></i>
+            <p>Wordpress</p>
+        </div>
+        <div class="skill-list">
+            <i class="fa fa-google" aria-hidden="true"></i>
+            <p>SEO and Digital Marketing</p>
+        </div>
+        <div class="skill-list">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+        <p>Web Design and Programming</p>
+        </div>     
+    </section>
+    <!-- portfolio -->
+    <section id="portfolio">
+        <div>
+        <h1 class="port">Portfolio</h1>
+        </div>
+        <div class="portfolio-list">
+            <div class="portfolio-image">
+            <img src="./image/rashobook.png" alt="rashobook">
+            </div>
+            <div class="portfolio-details">
+            <h2><strong>Rashobooks</strong></h2>
+            <p>
+                A book review website using Python Flask where users will be
+                able to register then log in using their username and password.
+                Once they log in, they will be able to search for books, leave
+                reviews for individual books, and see the reviews made by other
+                people. Users will be also able to query for book details and
+                book reviews programmatically via the website’s API.
+            </p>
+            <center><a href="https://Rashobooks.herokuapp.com">Visit Site</a></center>
+            </div>
+        </div>
+        <hr/>
+        <div class="portfolio-list">
+            <div class="portfolio-image">
+            <img src="./image/daily.png" alt="dailyincome">
+            </div>
+            <div class="portfolio-details">
+            <h2><strong>DailyIncome</strong></h2>
+            <p>
+                An affiliate website built with Wordpress where members pay a
+                one-time registration fee by purchasing a Coupon Code before
+                becoming a Premium Member of the website. Premium
+                members earn points via referrals, reading and commenting on
+                posts, sharing contents, and logging in daily. Members can
+                redeem the points earned to Real Money.
+            </p>
+            <center><a href="https://dailyincome.com.ng">Visit Site</a></center>
+            </div>
+        </div>
+        <hr/>
+        <div class="portfolio-list">
+            <div class="portfolio-image">
+            <img src="./image/lhs.png" alt="dailyincome">
+            </div>
+            <div class="portfolio-details">
+            <h2><strong>Lagos Health Summit</strong></h2>
+            <p>
+               A virtual event registration and ticket event website where
+               potential event attendees and delegates get information about the
+               event and also able to book tickets by paying online using their
+               ATM cards and other means.
+            </p>
+            <center><a href="https://Lagoshealthsummit.com">Visit Site</a></center>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <div>
+            <h1>Get In Touch</h1>
+            <p>Do you have any Web Projects and Ideas? Hit me Up!</p>
+            </div>
+        <div class="ccontainer">
+            <form name="contact" method="POST" data-netlify="true">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+          
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <center><input type="submit" value="submit"></center>
+            </form>
+            </div>
+            <div class="social-media">
+                <a href="https://web.facebook.com/ayoaderasheed" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/RA_UniqueGUY" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/ayoadera/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/rauniqueguy/" class="fa fa-instagram"></a>
+                <a href="https://github.com/Rashotech" class="fa fa-github"></a>
+
+          </div> 
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <p>&copy; Copyright, All right reserved, 2020</p>
+    </footer>
+</body>
+</html>
