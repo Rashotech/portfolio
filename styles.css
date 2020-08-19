@@ -156,6 +156,7 @@ header {
 } 
 #portfolio img {
     width: 75%;
+    border-radius: 50%;
 }
 .port {
     text-align: center;
