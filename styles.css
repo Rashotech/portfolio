@@ -19,10 +19,10 @@ nav {
     right: 0;
     z-index: 1;
 }
-nav img {
+/* nav img {
     max-width:100%; 
     height:auto; 
-}
+} */
 a {
     color: white;
     text-decoration: none;
@@ -35,9 +35,7 @@ a {
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
 }
-.item {
-    padding: 15px;
-}
+
 .item.button {
     padding: 9px 5px;
 }
@@ -45,9 +43,15 @@ a {
 .item a:hover::after {
     color: #ccc;
 }
-.menu > li {
-    flex: 1;  
+@media all and (min-width: 769px){
+    .menu > li {
+        flex: 1;  
+    }
+    .item {
+        padding: 15px;
+    }
 }
+
 #about {
     width: 100%;
     background: #f6ab6c;
