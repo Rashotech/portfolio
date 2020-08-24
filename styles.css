@@ -19,37 +19,34 @@ nav {
     right: 0;
     z-index: 1;
 }
-/* nav img {
-    max-width:100%; 
-    height:auto; 
-} */
+
 a {
     color: white;
     text-decoration: none;
+}
+.menu a {
+    padding: 10px;
 }
 .menu{   
     list-style-type: none;
     display: flex;
 }
+
+.menu li a:hover{
+    background: #df5e88;
+    border-radius: 10px;
+}
 .logo {
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
+    pointer-events: none;
 }
-
-.item.button {
-    padding: 9px 5px;
+.menu .logo {
+    margin-right: auto;
 }
-.item:not(.button) a:hover,
-.item a:hover::after {
-    color: #ccc;
-}
-@media all and (min-width: 769px){
-    .menu > li {
-        flex: 1;  
-    }
-    .item {
-        padding: 15px;
-    }
+.item {
+    padding: 10px;
+    margin-top: 10px;
 }
 
 #about {
@@ -63,15 +60,19 @@ a {
 }
 .about-me,
 .pic {
-    width: 50%;
-    padding: 20px 10px;
+    /* width: 50%; */
+    padding: 20px 30px;
     color: whitesmoke;
 }
 .about-me{
-    order:2
+    order:2;
+    flex: 2 1 0;
 }
+
 .pic {
     order: 1;
+    flex: 1 1 0;
+    
 }
 
 .pic img {
@@ -127,11 +128,10 @@ a {
     font-size: 14px;
     text-decoration: none;
 }
-/* Skiils */
+/* Skills */
 
 #skills {
     width: 100%;
-    /* height: 300px; */
     background: #8fcfd1;
     display: flex;
     justify-content: center;
@@ -139,22 +139,14 @@ a {
     text-align: center;
 }
 .skill-list {
-    /* width: 33.33%; */
     flex: 1;
-    padding: 50px 10px;
+    padding: 100px 20px;
     font-size: 30px;
 }
 
 /* Portfolio CSS */
 #portfolio {
-    /* width: 100%; */
-    /* height: 1000px; */
     background: #f6ab6c;
-}
-.portfolio-image,
-.portfolio-details{
-    /* width: 50%; */
-    /* padding: 10px 100px; */
 }
 .portfolio-list{
     display: flex;
@@ -162,7 +154,7 @@ a {
     align-items: center;
 } 
 #portfolio img {
-    width: 75%;
+    width: 70%;
     border-radius: 50%;
 }
 .port {
@@ -172,15 +164,17 @@ a {
     font-size: 4em;
 }
 #portfolio a {
+    display: inline-block;
     background-color: #df5e88;
-    border-radius: 50px;
+    border-radius: 10px;
     text-decoration: none;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: white;
-    text-align: center;
-    /* width: 70px; */
+    width: 100px;
+    
 }
+
 hr { 
     display: block; 
     margin-top: 0.5em; 
