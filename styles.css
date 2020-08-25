@@ -148,6 +148,9 @@ a {
 #portfolio {
     background: #f6ab6c;
 }
+#portfolio .link-p {
+    padding-left: 200px;
+}
 .portfolio-list{
     display: flex;
     justify-content: space-between;
@@ -169,9 +172,10 @@ a {
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
+    margin: 10px;
     margin-top: 20px;
     color: white;
-    width: 100px;
+    text-align: center;
     
 }
 

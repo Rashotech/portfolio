@@ -49,11 +49,12 @@
     justify-content: center;
     flex-direction: column;
 }
-.portfolio-list a{
-    border-radius: 20px;
-    width: 50px;
+#portfolio .link-p{
+    /* border-radius: 20px; */
+    /* width: 50px; */
+    padding-left: 30px;
+    margin: auto;
     text-decoration: none;
-    background-color: green;
 }
 .border-bt{
     border-bottom: 2px solid white;
