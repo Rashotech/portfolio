@@ -21,7 +21,7 @@
             <li class="item"><a href="#introduction">Home</a></li>
             <li class="item"><a href="#about">About</a></li>
             <li class="item"><a href="#skills">Skills</a></li>
-            <li class="item"><a href="#portfolio">Portfolio</a></li>
+            <li class="item"><a href="#portfolio">Projects</a></li>
             <li class="item"><a href="#contact">Contact</a></li>
             </ul>   
         </nav>
@@ -49,23 +49,39 @@
     </section>
     <!-- skills -->
     <section id="skills">
-        <div class="skill-list">
-            <i class="fa fa-wordpress" aria-hidden="true"></i>
-            <p>Wordpress</p>
+        <div class="skills">
+            <div class="skill-list">
+                <i class="fa fa-wordpress" aria-hidden="true"></i>
+                <p>Wordpress</p>
+            </div>
+            <div class="skill-list">
+                <i class="fa fa-google" aria-hidden="true"></i>
+                <p>SEO and Digital Marketing</p>
+            </div>
+            <div class="skill-list">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+            <p>Web Design and Programming</p>
+            </div>
         </div>
-        <div class="skill-list">
-            <i class="fa fa-google" aria-hidden="true"></i>
-            <p>SEO and Digital Marketing</p>
+        <div class="stats">
+            <div class="skill-list">
+              <span>30+</span><br>
+              Happy Clients
+            </div>
+            <div class="skill-list">
+              <span>45+</span><br>
+              Completed Projects
+            </div>
+            <div class="skill-list">
+              <span >10+</span><br>
+              Running Projects
+            </div>
         </div>
-        <div class="skill-list">
-            <i class="fa fa-laptop" aria-hidden="true"></i>
-        <p>Web Design and Programming</p>
-        </div>     
     </section>
     <!-- portfolio -->
     <section id="portfolio">
         <div>
-        <h1 class="port">Portfolio</h1>
+        <h1 class="port">Projects</h1>
         </div>
         <div class="portfolio-list border-bt">
             <div class="portfolio-image">
@@ -122,6 +138,21 @@
             </div>
         </div>
     </section>
+    <!-- Testimonial -->
+    <section class="testimonial text-center">
+        <div class="container">
+            <div class="heading white-heading">
+                Testimonial
+            </div>
+                <div class="testimonial_main">
+                    <img src="./image/tmosh2.jpg" class="img-circle img-responsive" />
+                    <p>Rasheed did outstanding work for Lagos Health Summit on web design and maintenance. I was particularly impressed by his attention to detail and creativity. His commitment to surpassing expectations and delivering a satisfactory job has sealed my faith in his professionalism and capability.</p>
+                    <h4>Habeeb Moshood</h4>
+                    <h4>Team Lead, Lagos Health Summit</h4>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- contact -->
     <section id="contact">
         <div>
@@ -153,8 +184,20 @@
           </div> 
     </section>
     <!-- footer -->
-    <footer class="footer">
-        <p>&copy; Copyright, All right reserved, 2020</p>
+    <footer id="footer">
+        <div class="stats">
+            <div class="subscribe">
+                <h3>Don't miss my Newsletter</h3>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="submit" value="Subscribe">
+                  </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Copyright, All right reserved, 2020</p>
+        </div>
     </footer>
 </body>
 </html>

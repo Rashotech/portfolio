@@ -12,13 +12,17 @@
 }
 
 /* Skills section */
-#skills, .skill-list {
+.skills, .skill-list {
     flex-direction: column;
 }
 .skill-list {
     flex: 1;
     padding: 20px 10px;
     font-size: 30px;
+}
+
+.stats{
+    flex-direction: column;
 }
 
 /* Portfolio */
@@ -64,10 +68,10 @@
     margin-right: auto;
 }
 .menu a {
-    padding: 3px;
+    padding: 2px;
 }
 
 .item {
-    padding: 3px;
+    padding: 2px;
     margin-top: 10px;
 }

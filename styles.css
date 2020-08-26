@@ -57,12 +57,8 @@ a {
     align-items: center;
     text-align: center;
     font-size: 20px;
-}
-.about-me,
-.pic {
-    /* width: 50%; */
-    padding: 20px 30px;
-    color: whitesmoke;
+    padding: 100px 30px;
+    color: white;
 }
 .about-me{
     order:2;
@@ -129,14 +125,17 @@ a {
     text-decoration: none;
 }
 /* Skills */
-
 #skills {
+    
+}
+.skills {
     width: 100%;
     background: #8fcfd1;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 50px;
 }
 .skill-list {
     flex: 1;
@@ -144,9 +143,22 @@ a {
     font-size: 30px;
 }
 
+.stats {
+    width: 100%;
+    background: #df5e88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+
 /* Portfolio CSS */
 #portfolio {
     background: #f6ab6c;
+    padding-top: 50px;
 }
 #portfolio .link-p {
     padding-left: 200px;
@@ -190,12 +202,101 @@ hr {
     border-width: 1px;
     color:white;
 }
+
+/* Testimonials */
+.heading {
+    text-align: center;
+    color: #454343;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+.white-heading{
+    color: #ffffff;
+}
+.heading:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 40px;
+    width: 180px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background: url(img/heading-line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-heading:after {
+    background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading span {
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+}
+.white-heading span {
+    color: #ffffff;
+}
+
+.testimonial {
+    min-height: 375px;
+    position: relative;
+    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+        background-size: cover;
+}
+
+.testimonial_main{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.testimonial_main img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+}
+.testimonial_main p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+.testimonial_main h4 {
+  color: #ffffff;
+  font-size: 22px;
+}
 /* Contact Form CSS*/
 #contact {
     width: 100%;
     background: #8fcfd1;
     font-size: 20px;
     text-align: center;
+    padding-top: 50px;
 }
 .ccontainer {
     border-radius: 5px;
@@ -215,7 +316,7 @@ input[type=text], input[type=email], textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
-  }
+}
   
 
 input[type=submit] {
@@ -273,11 +374,33 @@ input[type=submit]:hover {
     color: white;
 }
 /* footer */
+#footer input[type=text], #footer input[type=email] {
+    width: 33.33%; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    resize: vertical 
+}
+
+.#footer input[type=submit]:hover {
+    background-color: #df5e88;
+}
+.subscribe {
+    flex: 1;
+    padding: 50px 20px;
+    font-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #8fcfd1;
+}
+
 .footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #df5e88;
+    background-color: black;
     color: white;
     text-align: center;
     height: 60px;
